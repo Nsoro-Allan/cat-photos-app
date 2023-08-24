@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    /* background: rgb(55,59,65); */
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.header{
+    margin-top: -1%;
+    background: black;
+    color: #fff;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: -2%;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: row;
+    background: #fff;
+    padding: 10px;
+    margin-top: 80px;
+}
+
+.first-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.first-content h1{
+    font-style: italic;
+}
+
+.first-content h3{
+    padding-top: 10px;
+}
+
+.first-content p{
+    padding-top: 10px;
+}
+
+.first-img{
+    display: flex;
+    width: 450px;
+    height: 400px;
+    margin-left: 10%;   
+}
+.first-img img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.second-container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 10px;
+    margin-top: 150px;
+}
+
+.second-content{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    justify-content: center;
+}
+
+.second-content h1{
+    font-style: italic;
+}
+
+.second-content p{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.second-content ul{
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.second-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 10%;
+    width: 450px;
+    height: 400px;
+}
+
+.second-img img{
+    border-radius: 10px;
+}
+
+.second-img p{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.third-container{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 120px;
+}
+
+.third-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    margin-top: 20px;
+}
+
+.third-content h1{
+    font-style: italic;
+}
+
+.third-content ol{
+    padding-top: 20px;
+    padding-left: 22px;
+}
+
+.third-img{
+    width: 450px;
+    height: 400px;
+    margin-left: 80px;
+}
+
+.third-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.third-img p{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.fourth-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 18%;
+    margin-right: 10%;
+}
+
+fieldset{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+legend{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.fifth-container{
+    margin-top: 50px;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    width: 72%;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 18%;
+
+}
+
+::placeholder{
+    color: black;
+    text-transform: capitalize;
+}
+
+.fifth-container input{
+    padding: 10px;
+    border: none;
+    border-radius: 4px; 
+}
+
+.fifth-container button{
+    padding: 8px;
+}
+
+
+.footer{
+    margin-top: 50px;
+    background: black;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: -2%;
+}
+
+.gallery-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+.line{
+    background: black;
+    width: 4%;
+    margin-left: -3.8%;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.gallery .img{
+    margin: 1%;
+}
+
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button a{
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 13px;
+    border-radius: 50px;
+}
+
+.button a:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+.button1{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+
+.button1 a{
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 13px;
+    border-radius: 50px;
+}
+
+.button1 a:hover{
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+}
+
+
