@@ -241,6 +241,10 @@ legend{
     margin: 1%;
 }
 
+.gallery .img img{
+    border-radius: 10px;
+}
+
 .button{
     text-align: center;
     margin-top: 20px;
@@ -252,12 +256,15 @@ legend{
     color: #fff;
     padding: 13px;
     border-radius: 50px;
+    transition: all ease-in-out 0.3s;
+    border: 2px solid black;
 }
 
 .button a:hover{
     background: transparent;
     color: black;
-    border: 2px solid black;
+    transition: all ease-in-out 0.3s;
+
 }
 
 .button1{
@@ -272,12 +279,17 @@ legend{
     color: #fff;
     padding: 13px;
     border-radius: 50px;
+    transition: all ease-in-out 0.3s;
+    border: 2px solid black;
 }
 
 .button1 a:hover{
     background: transparent;
     color: black;
+    transition: all ease-in-out 0.3s;
     border: 2px solid black;
+
+
 }
 
 
